@@ -42,24 +42,49 @@ def enable_addin(addin_path):
     try:
         if platform.system() == "Windows":
             import win32com.client
-
-            excel = win32com.client.DispatchEx("Excel.Application")
-            excel.Visible = False  # No mostrar la interfaz de Excel
+            import time
 
             try:
-                addin = excel.AddIns(addin_path)
-                addin.Installed = True
-                result = "OK: Complemento activado correctamente"
-            except Exception as e:
-                result = f"ERROR: No se pudo activar el complemento. {str(e)}"
+                # Iniciar Excel
+                excel = win32com.client.DispatchEx("Excel.Application")
+                excel.Visible = False  # Ejecutar en segundo plano
+                excel.DisplayAlerts = False
 
-            excel.Quit()
-            return result
-        
+                # Obtener solo el nombre del archivo
+                addin_name = os.path.basename(addin_path)
+
+                # _path = get_addins_path()
+
+                # Obtener los complementos actuales
+                addins = excel.AddIns
+                is_active = False
+
+                # Comprobar si el complemento ya está en la lista
+                for addin in addins:
+                    if (
+                        addin.Name.lower() == addin_name.lower()
+                    ):  # Compara la ruta completa
+                        addin.Installed = True
+                        is_active = True
+                        print(f"✅ Complemento '{addin_name}' activado correctamente.")
+                        break
+
+                if not is_active:
+                    print(
+                        "❌ No fue posible activar el complemento de forma automática."
+                    )
+
+                # Esperar 5 segundos para ver Excel
+                time.sleep(5)
+
+                excel.Quit()
+
+            except Exception as e:
+                print(f"❌ Ocurrió un errorx: {e}")
+
         elif platform.system() == "Darwin":
             try:
                 from appscript import app, mactypes
-                import os
 
                 excel = app("Microsoft Excel")
                 addin_name = os.path.basename(addin_path)
@@ -121,15 +146,23 @@ def enable_addin(addin_path):
 
 
 if __name__ == "__main__":
-    # if len(sys.argv) < 2:
-    #     print("ERROR: Debes proporcionar el nombre del complemento.")
-    #     sys.exit(1)
+    if len(sys.argv) < 2:
+        print("ERROR: Debes proporcionar el nombre del complemento.")
+        sys.exit(1)
 
-    # addin_name = sys.argv[1]
-    addin_name = "plantilla"
+    addin_name = sys.argv[1]
+    # addin_name = "plantilla"
     addin_path = find_addin(addin_name)
 
     if addin_path:
         print(enable_addin(addin_path))
     else:
         print(f"ERROR: No se encontró ningún complemento con el nombre '{addin_name}'")
+
+
+# En Windows
+# pyinstaller --onefile --noconsole --name AddInManager.exe index.py
+
+# En macOS
+# pyinstaller --onefile --noconsole --name AddInManager excel_addin.py
+

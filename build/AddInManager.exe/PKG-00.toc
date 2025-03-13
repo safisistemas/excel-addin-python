@@ -1,0 +1,144 @@
+('C:\\Users\\Sistemas\\Documents\\Project '
+ 'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\AddInManager.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('index',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\index.py',
+   'PYSOURCE'),
+  ('python311.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\python311.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes311.dll',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\pywin32_system32\\pywintypes311.dll',
+   'BINARY'),
+  ('pywin32_system32\\pythoncom311.dll',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\pywin32_system32\\pythoncom311.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('Pythonwin\\win32ui.pyd',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\Pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\win32event.pyd',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\win32\\win32event.pyd',
+   'EXTENSION'),
+  ('win32\\win32trace.pyd',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('Pythonwin\\mfc140u.dll',
+   'c:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\.venv\\Lib\\site-packages\\Pythonwin\\mfc140u.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Sistemas\\Documents\\Project '
+   'SAFI\\Python\\excel-addin-python\\build\\AddInManager.exe\\base_library.zip',
+   'DATA')],
+ 'python311.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
